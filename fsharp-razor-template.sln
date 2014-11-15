@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsharp-razor-template", "fsharp-razor-template\fsharp-razor-template.csproj", "{04CF08CD-F313-4EB3-B5B0-A72E69DA1CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsharp-razor-template.Tests", "fsharp-razor-template.Tests\fsharp-razor-template.Tests.csproj", "{E2EA4117-E5BB-4087-AE55-F0C1F6093144}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-razor-template.controllers", "fsharp-razor-template.logic\fsharp-razor-template.controllers.fsproj", "{A1E8398B-C8C7-432C-8C6D-DF1C9C30C883}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-razor-template.models", "fsharp-razor-template.models\fsharp-razor-template.models.fsproj", "{E7E674CA-483F-48DD-A90A-924BF51E713A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04CF08CD-F313-4EB3-B5B0-A72E69DA1CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CF08CD-F313-4EB3-B5B0-A72E69DA1CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CF08CD-F313-4EB3-B5B0-A72E69DA1CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CF08CD-F313-4EB3-B5B0-A72E69DA1CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EA4117-E5BB-4087-AE55-F0C1F6093144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EA4117-E5BB-4087-AE55-F0C1F6093144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EA4117-E5BB-4087-AE55-F0C1F6093144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EA4117-E5BB-4087-AE55-F0C1F6093144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E8398B-C8C7-432C-8C6D-DF1C9C30C883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E8398B-C8C7-432C-8C6D-DF1C9C30C883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E8398B-C8C7-432C-8C6D-DF1C9C30C883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E8398B-C8C7-432C-8C6D-DF1C9C30C883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E674CA-483F-48DD-A90A-924BF51E713A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E674CA-483F-48DD-A90A-924BF51E713A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E674CA-483F-48DD-A90A-924BF51E713A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E674CA-483F-48DD-A90A-924BF51E713A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
