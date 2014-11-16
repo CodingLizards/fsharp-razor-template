@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>$safeprojectname$.Tests</Name>
+    <Description>&lt;Keine Beschreibung verfügbar&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>$safeprojectname$.Tests</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Tests.csproj" File="fsharp-razor-template.Tests.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeControllerTest.cs">HomeControllerTest.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValuesControllerTest.cs">ValuesControllerTest.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <!--<WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages>
+      <package id="Microsoft.AspNet.Mvc" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.Mvc.de" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.Razor" version="3.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.Razor.de" version="3.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Client" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Client.de" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Core" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.Core.de" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.WebHost" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebApi.WebHost.de" version="5.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebPages" version="3.2.2" targetFramework="net45" />
+      <package id="Microsoft.AspNet.WebPages.de" version="3.2.2" targetFramework="net45" />
+      <package id="Microsoft.Web.Infrastructure" version="1.0.0.0" targetFramework="net45" />
+      <package id="Newtonsoft.Json" version="6.0.4" targetFramework="net45" />
+    </packages>
+  </WizardData>-->
+</VSTemplate>
